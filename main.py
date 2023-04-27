@@ -8,6 +8,10 @@ from datetime import datetime
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
+import sys
+
+sys.stdout = open('stdout.log', 'w')
+sys.stderr = open('stderr.log', 'w')
 
 
 
